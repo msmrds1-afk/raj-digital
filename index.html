@@ -1,0 +1,662 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAJ Digital - Affiliate Partner</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0755B8',
+                        darkblue: '#071743',
+                        lightblue: '#DDEBFC',
+                        green: '#07845B'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        bangla: ['Hind Siliguri', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            color: #071743;
+        }
+
+        .bangla {
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+
+        .hero-bg {
+            background: linear-gradient(110deg, #c5d9f8, #edf4ff);
+        }
+
+        .card-shadow {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.09);
+        }
+
+        .main-container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .feature-icon {
+            width: 46px;
+            height: 46px;
+            min-width: 46px;
+            border-radius: 50%;
+            background: #0755B8;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 23px;
+        }
+
+        .step-icon {
+            width: 49px;
+            height: 49px;
+            min-width: 49px;
+            border-radius: 50%;
+            background: #0755B8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 23px;
+        }
+
+        .rank {
+            font-size: 27px;
+            line-height: 1;
+        }
+
+        @media(max-width: 768px) {
+            .hero-section {
+                padding: 35px 20px;
+            }
+
+            .hero-section h1 {
+                font-size: 27px;
+                line-height: 1.35;
+            }
+
+            .hero-illustration {
+                margin-top: 25px;
+            }
+
+            .step-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .bottom-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-content {
+                text-align: center;
+            }
+
+            .footer-badges {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-white">
+
+<!-- ================= HEADER ================= -->
+
+<header class="bg-white shadow-md relative z-10">
+    <div class="main-container px-6 py-5 flex items-center justify-between gap-5">
+
+        <!-- Logo -->
+        <div class="flex items-center gap-3 shrink-0">
+
+            <svg width="62" height="70" viewBox="0 0 62 70" fill="none">
+                <path d="M31 2L59 10V31C59 47 47 59 31 68C15 59 3 47 3 31V10L31 2Z"
+                      fill="#0755B8"/>
+                <path d="M31 9L52 15V31C52 44 43 54 31 61C19 54 10 44 10 31V15L31 9Z"
+                      fill="white"/>
+                <path d="M14 43L27 30L35 37L49 22"
+                      stroke="#0755B8" stroke-width="5"
+                      stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M39 22H49V32"
+                      stroke="#0755B8" stroke-width="5"
+                      stroke-linecap="round"/>
+                <path d="M10 48L22 38L29 44L43 31"
+                      stroke="#4D94D9" stroke-width="4"
+                      stroke-linecap="round"/>
+            </svg>
+
+            <span class="text-4xl font-extrabold text-[#0755B8] tracking-tight">
+                RAJ<span class="text-[#163B70] font-normal">Digital</span>
+            </span>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="hidden lg:flex items-center gap-3 text-[16px] font-semibold text-gray-900 whitespace-nowrap">
+            <a href="#features" class="hover:text-blue-600">Features</a>
+            <span>|</span>
+            <a href="#how-it-works" class="hover:text-blue-600">How It Works</a>
+            <span>|</span>
+            <a href="#top-earners" class="hover:text-blue-600">Top Earners</a>
+            <span>|</span>
+            <a href="#faq" class="hover:text-blue-600">FAQ</a>
+            <span>|</span>
+            <a href="#contact" class="hover:text-blue-600">Contact</a>
+        </nav>
+
+        <!-- Header Buttons -->
+        <div class="flex items-center gap-3 shrink-0">
+            <a href="#login"
+               class="border-2 border-[#315B83] text-[#17477E] px-4 py-2.5 rounded-xl font-bold flex items-center gap-2 hover:bg-blue-50">
+                <span>♙</span> Login
+            </a>
+
+            <a href="#register"
+               class="bg-[#0755B8] text-white px-5 py-3 rounded-xl font-bold flex items-center gap-2 hover:bg-blue-800">
+                ➜ Free Registration
+            </a>
+        </div>
+
+    </div>
+</header>
+
+
+<!-- ================= HERO SECTION ================= -->
+
+<section class="hero-bg hero-section py-8">
+
+    <div class="main-container grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+
+        <!-- Hero Text -->
+        <div>
+
+            <h1 class="text-[34px] font-extrabold text-[#071743] leading-tight">
+                Become Our Affiliate Partner,
+            </h1>
+
+            <h2 class="bangla text-[34px] font-bold text-[#071743] leading-tight">
+                আমাদের অ্যাফিলিয়েট পার্টনার হন,
+            </h2>
+
+            <h2 class="text-[36px] font-extrabold text-[#0755B8] leading-tight">
+                ৪৫% Commission per Referral
+            </h2>
+
+            <p class="text-[14px] font-medium text-black mt-1 leading-snug">
+                Join thousands of partners earning real commissions by referring users to RAJ Digital.
+                Simple, transparent, and 100% legitimate — no gambling, just real results.
+            </p>
+
+            <!-- CTA Buttons -->
+            <div class="flex flex-wrap gap-3 mt-4">
+
+                <a href="#register"
+                   class="bg-[#0755B8] text-white px-10 py-3 rounded-lg font-bold text-[15px] hover:bg-blue-800 transition">
+                    Start Earning Now ›
+                </a>
+
+                <a href="#how-it-works"
+                   class="border-2 border-[#0755B8] text-[#0755B8] px-12 py-2.5 rounded-lg font-bold text-[15px] hover:bg-blue-100 transition">
+                    Learn More
+                </a>
+
+            </div>
+
+            <!-- Trust Badges -->
+            <div class="flex flex-wrap items-center gap-5 mt-4 text-[14px] text-gray-600">
+
+                <span class="flex items-center gap-2">
+                    <span class="text-white bg-[#20B477] rounded-full w-[19px] h-[19px] flex items-center justify-center">✓</span>
+                    100% Legitimate
+                </span>
+
+                <span class="flex items-center gap-2">
+                    <span class="text-blue-700 text-xl">⛨</span>
+                    Secure & Verified
+                </span>
+
+                <span class="flex items-center gap-2">
+                    <span class="text-white bg-gray-500 rounded-full w-[17px] h-[17px] flex items-center justify-center text-xs">✓</span>
+                    Trusted by 10k+ Partners
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- Hero Illustration -->
+        <div class="hero-illustration flex justify-center">
+
+            <svg viewBox="0 0 570 310" class="w-full max-w-[570px]" xmlns="http://www.w3.org/2000/svg">
+
+                <!-- Money Card -->
+                <rect x="80" y="15" width="150" height="75" rx="13" fill="#8FB3E9"/>
+
+                <circle cx="119" cy="53" r="24" fill="none" stroke="#0755B8" stroke-width="5"/>
+                <text x="119" y="64" font-size="32" text-anchor="middle" fill="#0755B8">$</text>
+
+                <rect x="151" y="33" width="68" height="8" rx="4" fill="#0755B8"/>
+                <rect x="151" y="52" width="48" height="8" rx="4" fill="#0755B8"/>
+
+                <!-- Coins -->
+                <ellipse cx="83" cy="115" rx="25" ry="10" fill="#0755B8"/>
+                <ellipse cx="83" cy="110" rx="25" ry="10" fill="#A6C8F5" stroke="#0755B8" stroke-width="3"/>
+                <text x="83" y="115" font-size="13" text-anchor="middle" fill="#0755B8">$</text>
+
+                <ellipse cx="118" cy="138" rx="18" ry="8" fill="#0755B8"/>
+                <ellipse cx="118" cy="134" rx="18" ry="8" fill="#A6C8F5" stroke="#0755B8" stroke-width="3"/>
+
+                <!-- Growth Arrow -->
+                <path d="M155 160 L205 105 L242 137 L294 78"
+                      stroke="#0755B8" stroke-width="11" fill="none"
+                      stroke-linejoin="round"/>
+
+                <path d="M276 78 L295 78 L294 98"
+                      stroke="#0755B8" stroke-width="11" fill="none"
+                      stroke-linecap="round"/>
+
+                <!-- Link Icon -->
+                <path d="M350 42 L369 22 Q386 6 399 22 Q410 36 396 50 L379 68"
+                      stroke="#0755B8" stroke-width="8" fill="none"
+                      stroke-linecap="round"/>
+
+                <path d="M380 48 L361 69 Q345 85 332 69 Q320 56 333 42 L350 25"
+                      stroke="#0755B8" stroke-width="8" fill="none"
+                      stroke-linecap="round"/>
+
+                <!-- Graph Line -->
+                <path d="M323 151 L376 95 L410 119 L475 55"
+                      stroke="#4385D8" stroke-width="10" fill="none"
+                      stroke-linejoin="round"/>
+
+                <path d="M452 54 L478 54 L475 79"
+                      stroke="#0755B8" stroke-width="10" fill="none"/>
+
+                <!-- Chart Bars -->
+                <rect x="338" y="167" width="32" height="103" fill="#0755B8"/>
+                <rect x="385" y="137" width="32" height="133" fill="#5C92DC"/>
+                <rect x="432" y="111" width="32" height="159" fill="#4385D8"/>
+                <rect x="479" y="59" width="32" height="211" fill="#0755B8"/>
+
+                <!-- Person -->
+                <path d="M240 173 Q245 130 281 130 Q315 130 320 173 L330 270 L228 270Z"
+                      fill="#0755B8" stroke="#052E76" stroke-width="4"/>
+
+                <path d="M256 130 Q258 111 278 109 Q297 110 302 133 L299 154 Q292 171 273 164 Q259 158 256 143Z"
+                      fill="#82A9E4" stroke="#052E76" stroke-width="4"/>
+
+                <path d="M249 185 L220 240 L193 240"
+                      stroke="#052E76" stroke-width="13" fill="none" stroke-linecap="round"/>
+
+                <path d="M298 185 L277 241 L238 241"
+                      stroke="#052E76" stroke-width="13" fill="none" stroke-linecap="round"/>
+
+                <!-- Laptop -->
+                <path d="M58 174 L181 174 Q188 174 191 182 L216 268 L84 268Z"
+                      fill="#0755B8" stroke="#052E76" stroke-width="4"/>
+
+                <circle cx="126" cy="218" r="9" fill="#B5D3F8"/>
+
+                <path d="M84 269 L222 269 L230 278 L93 278Z"
+                      fill="#A4C4ED" stroke="#052E76" stroke-width="3"/>
+
+                <!-- Ground -->
+                <path d="M12 271 L564 271"
+                      stroke="#071743" stroke-width="3"/>
+
+            </svg>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= HOW IT WORKS ================= -->
+
+<section id="how-it-works" class="py-3 px-5">
+
+    <div class="main-container">
+
+        <div class="text-center mb-3">
+            <h2 class="text-[32px] font-extrabold text-[#071743]">
+                How It Works
+            </h2>
+
+            <p class="text-[20px] text-gray-500">
+                Get started in just 3 simple steps
+            </p>
+        </div>
+
+
+        <!-- Steps -->
+        <div class="step-grid grid grid-cols-1 md:grid-cols-3 gap-5 max-w-[1130px] mx-auto">
+
+            <!-- Step 1 -->
+            <div class="bg-white rounded-xl p-5 card-shadow">
+
+                <div class="flex items-center gap-3 mb-1">
+
+                    <div class="step-icon">⊕</div>
+
+                    <h3 class="text-[23px] font-extrabold">
+                        01 - Sign Up
+                    </h3>
+
+                </div>
+
+                <p class="text-[14px] text-black leading-snug">
+                    Create your free affiliate account in minutes.
+                    No fees, no credit card required.
+                </p>
+
+            </div>
+
+
+            <!-- Step 2 -->
+            <div class="bg-white rounded-xl p-5 card-shadow">
+
+                <div class="flex items-center gap-3 mb-1">
+
+                    <div class="step-icon">🔗</div>
+
+                    <h3 class="text-[23px] font-extrabold">
+                        02 - Share
+                    </h3>
+
+                </div>
+
+                <p class="text-[14px] text-black leading-snug">
+                    Share your unique referral link across your
+                    network, social media, website, or email.
+                </p>
+
+            </div>
+
+
+            <!-- Step 3 -->
+            <div class="bg-white rounded-xl p-5 card-shadow">
+
+                <div class="flex items-center gap-3 mb-1">
+
+                    <div class="step-icon">▣</div>
+
+                    <h3 class="text-[22px] font-extrabold">
+                        03 - Earn Commission
+                    </h3>
+
+                </div>
+
+                <p class="text-[14px] text-black leading-snug">
+                    Earn 45% commission for every successful
+                    referral. Track your earnings live and get paid
+                    on time.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EARNERS & FEATURES ================= -->
+
+<section class="bg-[#DFEBFC] py-3 px-5">
+
+    <div class="main-container bottom-grid grid grid-cols-1 md:grid-cols-2 gap-12">
+
+        <!-- Top Earners -->
+        <div id="top-earners">
+
+            <h2 class="text-[30px] font-extrabold text-[#071743] leading-tight">
+                Top Earners This Month
+            </h2>
+
+            <p class="text-[14px] font-medium text-black">
+                Leaderboard • Real partners • Real results
+            </p>
+
+
+            <!-- User 1 -->
+            <div class="flex items-center justify-between gap-3 mt-2">
+
+                <div class="flex items-center gap-3">
+
+                    <span class="rank">🥇</span>
+
+                    <img src="https://i.pravatar.cc/100?img=12"
+                         class="w-9 h-9 rounded-full border-2 border-white object-cover"
+                         alt="Rahim Khan">
+
+                    <div>
+                        <h4 class="font-bold text-[15px]">
+                            Rahim Khan <span class="text-blue-600">✔</span>
+                        </h4>
+                        <p class="text-[12px] text-gray-600">Dhaka</p>
+                    </div>
+
+                </div>
+
+                <p class="text-[#07845B] font-extrabold text-[18px] whitespace-nowrap">
+                    +৳ 52,400 earned
+                </p>
+
+            </div>
+
+
+            <!-- User 2 -->
+            <div class="flex items-center justify-between gap-3 mt-2">
+
+                <div class="flex items-center gap-3">
+
+                    <span class="rank">🥈</span>
+
+                    <img src="https://i.pravatar.cc/100?img=13"
+                         class="w-9 h-9 rounded-full border-2 border-white object-cover"
+                         alt="Sadia Afrin">
+
+                    <div>
+                        <h4 class="font-bold text-[15px]">
+                            Sadia Afrin <span class="text-blue-600">✔</span>
+                        </h4>
+                        <p class="text-[12px] text-gray-600">Chittagong</p>
+                    </div>
+
+                </div>
+
+                <p class="text-[#07845B] font-extrabold text-[18px] whitespace-nowrap">
+                    +৳ 38,100 earned
+                </p>
+
+            </div>
+
+
+            <!-- User 3 -->
+            <div class="flex items-center justify-between gap-3 mt-2">
+
+                <div class="flex items-center gap-3">
+
+                    <span class="rank">🥉</span>
+
+                    <img src="https://i.pravatar.cc/100?img=14"
+                         class="w-9 h-9 rounded-full border-2 border-white object-cover"
+                         alt="Tanvir Ahmed">
+
+                    <div>
+                        <h4 class="font-bold text-[15px]">
+                            Tanvir Ahmed <span class="text-blue-600">✔</span>
+                        </h4>
+                        <p class="text-[12px] text-gray-600">Sylhet</p>
+                    </div>
+
+                </div>
+
+                <p class="text-[#07845B] font-extrabold text-[18px] whitespace-nowrap">
+                    +৳ 26,850 earned
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Features -->
+        <div id="features">
+
+            <h2 class="text-[30px] font-extrabold text-[#071743] mb-1">
+                Features You'll Love
+            </h2>
+
+
+            <!-- Feature 1 -->
+            <div class="flex items-center gap-3 mb-1">
+
+                <div class="feature-icon">✓</div>
+
+                <div>
+                    <h3 class="font-extrabold text-[15px]">
+                        Real-time Dashboard
+                    </h3>
+
+                    <p class="text-[13px] text-black">
+                        Monitor clicks, sign-ups, and earnings live 24/7 in your dashboard.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- Feature 2 -->
+            <div class="flex items-center gap-3 mb-1">
+
+                <div class="feature-icon">🎧</div>
+
+                <div>
+                    <h3 class="font-extrabold text-[15px]">
+                        24/7 Support
+                    </h3>
+
+                    <p class="text-[13px] text-black">
+                        Our dedicated support team is available around the clock to help you.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- Feature 3 -->
+            <div class="flex items-center gap-3">
+
+                <div class="feature-icon">▤</div>
+
+                <div>
+                    <h3 class="font-extrabold text-[15px]">
+                        Fast Payment
+                    </h3>
+
+                    <p class="text-[13px] text-black">
+                        Weekly payouts via bank transfer or mobile wallet. Secure, fast, and reliable.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer id="contact" class="bg-[#06459A] text-white px-6 pt-1 pb-2">
+
+    <div class="main-container">
+
+        <div class="flex flex-col md:flex-row justify-between items-center gap-3 footer-content">
+
+            <!-- Footer Logo & Info -->
+            <div>
+
+                <h2 class="text-[23px] font-extrabold leading-tight">
+                    RAJ Digital
+                </h2>
+
+                <p class="text-[12px]">
+                    A trusted affiliate partner program. Helping individuals and businesses grow together.
+                </p>
+
+                <div class="text-[11px] mt-1">
+                    Privacy Policy &nbsp; | &nbsp;
+                    Terms of Service &nbsp; | &nbsp;
+                    Contact: support@rajdigital.com
+                </div>
+
+            </div>
+
+
+            <!-- Copyright -->
+            <div class="text-[12px] text-center">
+                © 2024 RAJ Digital. All rights reserved. &nbsp; | &nbsp;
+                100% Non-Gambling • Legitimate Affiliate Program
+            </div>
+
+        </div>
+
+
+        <!-- Security Badges -->
+        <div class="flex justify-center mt-1">
+
+            <div class="footer-badges flex items-center gap-3 bg-[#D9E8FC] text-[#163B70] rounded-md px-3 py-1 text-[12px] font-semibold">
+
+                <span>⛨ SSL Secured</span>
+
+                <span class="text-gray-400">|</span>
+
+                <span>♙ Data Protected</span>
+
+                <span class="text-gray-400">|</span>
+
+                <span>♧ Compliant & Transparent</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+</body>
+</html>
